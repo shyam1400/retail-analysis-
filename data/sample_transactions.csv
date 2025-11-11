@@ -1,0 +1,8 @@
+invoice_id,transaction_ts,customer_id,product_id,product_name,category,quantity,unit_price,store_id
+1001,2024-11-01 10:12:00,C001,P001,Blue T-Shirt,Apparel,2,299.0,S1
+1001,2024-11-01 10:12:00,C001,P002,Black Jeans,Apparel,1,899.0,S1
+1002,2024-11-02 15:05:00,C002,P003,Running Shoes,Footwear,1,1999.0,S2
+1003,2024-11-03 12:00:00,C001,P001,Blue T-Shirt,Apparel,1,299.0,S1
+1004,2024-11-04 09:30:00,C003,P004,Water Bottle,Accessories,3,199.0,S2
+1005,2024-11-05 18:20:00,C004,P002,Black Jeans,Apparel,2,899.0,S1
+1006,2024-11-06 11:45:00,C002,P005,Sports Cap,Accessories,1,149.0,S2
