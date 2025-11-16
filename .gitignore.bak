@@ -1,8 +1,13 @@
+# Python cache and environments
 __pycache__/
 *.pyc
 .venv/
+
+# Data: keep sample csv but ignore others
 data/*
 !data/sample_transactions.csv
+
+# Outputs: ignore by default but allow these specific folders
 outputs/*
 !outputs/processed_transactions/
 !outputs/processed_transactions/**
@@ -10,7 +15,10 @@ outputs/*
 !outputs/daily_sales/**
 !outputs/top_products/
 !outputs/top_products/**
+
+# Logs and OS files
 *.log
 .DS_Store
 
+# Streamlit cache
 .streamlit/
